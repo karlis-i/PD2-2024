@@ -4,6 +4,10 @@
 Šis repo paredzēts tiem, kas zina, kas ir PD2.
 
 ## Instalācija
+```
+git clone https://github.com/karlis-i/PD2-sagatave.git .
+
+rm .git
 
 docker compose build
 docker compose up -d
@@ -27,6 +31,7 @@ DB_PASSWORD=pd2pass
 php artisan migrate
 
 http://localhost/
+```
 
 ## Docker komandas
 - Konteineru būvēšana: `docker compose build`
